@@ -57,7 +57,7 @@ namespace CodeAssesment
                 int row = 0;
                 while ((line = fileRead.ReadLine()) != null)
                 {
-                    if (row > 0) // Ignorar la primera línea (encabezados)
+                    if (row > 0) // Ignore the Header
                     {
                         string[] x = line.Split(',');
 
